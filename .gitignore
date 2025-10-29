@@ -1,0 +1,68 @@
+############################
+# MAVEN / JAVA BUILD FILES #
+############################
+
+# Hasil build dan laporan
+/target/
+*.class
+*.log
+
+# Maven wrapper (jar boleh di-commit)
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing
+
+#####################
+# IDE CONFIG FILES  #
+#####################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath/
+.springBeans/
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!src/main/**/build/
+!src/test/**/build/
+
+# VS Code
+.vscode/
+
+#####################
+# SYSTEM / OS FILES #
+#####################
+
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+# Linux temporary
+*~
+
+##############################
+# TEST REPORTS / TEMPORARY   #
+##############################
+
+# JaCoCo & surefire reports
+/site/
+jacoco.exec
+surefire-reports/
+
+# Temporary or local environment
+*.tmp
+*.swp
